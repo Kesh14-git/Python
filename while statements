@@ -1,0 +1,104 @@
+#Basic while loop
+'''count = 0
+while count < 5:
+    print(count)
+    count += 1'''
+
+'''number = 1
+while number <= 3:
+    print(number)
+    number += 1'''
+
+#Infinite while loop
+#summing numbers
+
+'''n = 5
+total = 0
+i = 1
+
+while i <= n:
+    total += i
+    i += 1
+print("The sum is:",total)'''
+
+#Input validation
+'''password = " "
+while password!= "secret":
+    password = input("Enter the password:")
+print("Access granted!")'''
+
+'''fruits =["apple", "banana","cherry"]
+index = 0
+while index < len(fruits):
+    print(fruits[index])
+    index += 1'''
+
+#practice problems
+#1 ATM cash withdrawal
+
+'''balance = 5000
+
+while balance >0:
+    amount = int(input("Enter Withdrawal Amount:"))
+
+    if amount <= balance:
+        balance -= amount
+        print("Remaining Balance=",balance)
+    else:
+        print("Insufficient Balance")'''
+
+#Login System
+'''password = "admin123"
+user = input("Enter Password:")
+while user!= password:
+    print("Incorrect Password")
+    user = input("Enter Password:")
+print("Login successful")'''
+
+#E commerce Shopping cart
+'''total = 0
+price = int(input("Enter Product Price(0 to Exit): "))
+while price!= 0:
+    total += price
+    price = int(input("Enter Product Price(0 to Exit):"))
+print("Total Amount=",total)'''
+
+#4. Fuel steam billing
+'''total = 0
+litres = float(input("Enter Litres (0 to Stop):"))
+while litres!=0:
+    total += litres
+    litres = float(input("Enter Litres(0 to Stop):"))
+print("Total Fuel Filled=",total,":Litres")'''
+
+#Hospital Patient Registration
+
+'''count = 0
+name = input("Enter Patient Name(stop to exit)")
+while name.lower()!= "stop":
+    count += 1
+    name = input("Enter Patient Name(stop to exit):")
+print("Total Patients Registered=",count)'''
+
+#6 Employee attendance entry
+'''present = 0
+status = input("Attendance(P/Done):")
+while status.lower()!="done":
+    if status.upper()== "P":
+       present+= 1
+
+       status = input("Attendance(P/Done):")
+print("Total Present Employees=",present)'''
+
+#7 Bank deposit System
+balance = 0
+deposit = int(input("Enter Deposit Amount(0 to Exit):"))
+while deposit!= 0:
+    balance+= 0
+    deposit = int(input("Enter Deposit Amount (0 to Exit):"))
+print("Final Account Balance=",balance)
+
+
+
+    
+
