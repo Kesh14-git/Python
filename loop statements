@@ -1,0 +1,155 @@
+'''fruits = ["apple", "banana","guava"]
+for fruit in fruits:
+    print(fruit)'''
+
+'''for i in range(2,10,2):
+    print(i)'''
+
+'''message = "hello"
+for char in message:
+    print(char)'''
+
+'''numbers = [1,2,3,4,5,6,7,8,9,10]
+for num in numbers:
+    if num % 2 == 0:
+        print(num)'''
+
+'''for i in range(5):
+    if i == 3:
+        break
+    elif i == 1:
+        continue
+    print(i)'''
+
+'''for i in range(3):
+    print(i)
+else:
+    print("Loop completed without a break")'''
+
+#Practice problems
+#1 Student atttendance report
+
+'''present = 0
+absent = 0
+
+for i in range(1,6):
+    status =input("Enter attendance for Student(P/A)")
+    if status.upper()== "P":
+        present += 1
+    else:
+        absent+= 1
+    print("\n Attendance Report")
+    print("Present Students:",present)
+    print("Absent Students:",absent)'''
+
+#2 shopping bill calculator
+'''total = 0
+for i in range(1,6):
+    price = float(input(f"Enter price of Product {i}:"))
+    total += price
+    print("Total Bill = ",total)'''
+
+##Employee asalary processing
+'''salary_total = 0
+for i in range(1,6):
+    salary = int(input(f"Enter salary of the Employee {i}:"))
+    salary_total += salary
+print("Total Salary Paid = ", salary_total)'''
+
+#Online exam result
+pass_count = 0
+'''for i in range(1,6):
+    mark = int(input(f"Enter Subject {i} Mark:"))
+    
+    if mark >= 40:
+        pass_count+= 1
+print("Subject Passed:",pass_count)'''
+
+#Hospital Patient Temperature Monitoring
+
+'''for i in range(1,6):
+    temp = float(input(f"Enter Temperature of Patient {i}:"))
+    if temp >= 100:
+        print("Patient",i, "has Fever")'''
+
+#Mobile recharge collection
+'''total = 0
+
+for i in range(1,6):
+    amount = int(input(f"Recharge Amount for Customer {i}:"))
+    total+= amount
+print("Today's Recharge Collection =",total)'''
+
+#product stock availability
+ 
+'''for i ange(1,6):
+    stock = int(input(f"Enter Stock of Product {i}:"))
+    if stock == 0:
+        print("Product",i,"is Out of stock")'''
+
+#Practice problems
+
+''''books_issued = 0
+
+n =t(input("Enter the number of students:"))  
+for i in range(1, n + 1):
+    name = input(f"Enter the name of student:")
+    issue = input("Books issued(yes/no):")
+    if issue.lower()=="yes":
+       books_issued+= 1
+                                         
+
+print("\n Library Report")
+print("Total number of books_isued",books_issued)'''
+
+#2 Restaurant billing system
+
+'''al_bill = 0
+price = int(input("Enter he price:"))
+for i in range(1, price + 1):
+    final_bill+= 1
+print("Final bill of the food items:")'''
+
+'''bill = 0
+
+while True:
+    price = float(input("Enter the Food Price:"))
+
+    if price == 0:
+        break
+    final_bill+= price
+print("\n Restaurant Bill")
+print("Final_bill =",final_bill)'''
+
+#3 college fee colection system'
+'''al_fee = 0
+
+while True:
+    fee =int(input("Enter the fee:"))
+
+    if fee == 0:
+        break
+    total_fee+= fee
+print("\n College fee collection system")
+print("Total_fee=",total_fee)'''
+
+#4 Bus ticket booking system
+total_seats = 0
+
+while True:
+    n = int(input("Enter the number of seats:"))
+    if n== 0:
+        break
+    total_seats+= n
+print("\n Bus Ticket booking system")
+print("Total_seats=",total_seats)
+
+
+
+ 
+
+
+
+ 
+
+
