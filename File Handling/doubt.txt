@@ -1,0 +1,3 @@
+does read method count spaces to while reading?
+
+does filoe,write delete old data and write new Data?
